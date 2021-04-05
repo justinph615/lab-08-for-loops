@@ -1,0 +1,53 @@
+<html>
+<head>
+
+	<title>
+
+    </title>
+</head>
+
+<body>
+<script>
+
+
+
+	//var userinput = prompt("Number Please...");
+	//var userinput2 = prompt("2nd Number Please...");
+	//var userinput3 = prompt("3rd Number Please...");
+	//var userinput4 = prompt("4th Number Please...");
+
+	//var usernum = ((userinput + userinput2 + userinput3 + userinput4)/4);
+
+	//console.log(usernum);
+
+
+
+
+var average = 0;
+var sum = 0;
+
+
+for (var i = 0; i <= 4; i = i + 1)
+
+	{
+		var userinput = prompt ("Number please");
+		var usernum = parseInt(userinput, 10);
+		sum = sum + usernum; //add up the numbers each time loop cycles
+
+		console.log("User number is: " + usernum + " current sum is: " + sum);
+
+	}
+
+	average = sum / 4;
+
+console.log(average);
+		document.write("The average is " + average + "<br>");
+
+</script>
+
+
+
+
+
+</body>
+</html>
